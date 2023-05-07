@@ -12,15 +12,24 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body>
-    <section class="home">
+    <section class="home" id="home">
       <header class="header">
         <a href="#" class="my-logo">MY LOGO</a>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <ul>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Contact</a>
+              <div class="dropdown-content">
+                <a href="#">Email</a>
+                <a href="#">Phone</a>
+              </div>
+            </li>
+          </ul>
           <li><a href="#">Skills</a></li>
           <li><a href="#">Education</a></li>
           <li><a href="#">Blog</a></li>
@@ -30,7 +39,7 @@
       <main class="middle-section">
         <div class="pic"></div>
         <div class="intro">
-          <h1>HI MY NAME IS VICTOR I'M A FULL-STACK DEVELOPER</h1>
+          <h1>HI MY NAME IS <span><br>VICTOR MACHARIA</br></span>  I'M A FULL-STACK DEVELOPER</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta,
             nesciunt sunt provident nulla delectus nostrum quia doloribus at sed
@@ -40,17 +49,38 @@
             neque a minus. Quo optio a quisquam ut! Rerum, ullam? Lorem ipsum
             dolor sit, amet consectetur adipisicing elit. Soluta, nesciunt sunt
             provident nulla delectus nostrum quia doloribus at sed laborum,
-            neque a minus. Quo optio a quisquam ut! Rerum, ullam?
+            neque a minus. Quo optio a quisquam ut! Rerum, ullam?  
           </p>
         </div>
         <div class="icons">
-            <img class="twitter" src="thumbnails/twitter-icon2.jpeg" alt="twitter">
-            <img class="github" src="thumbnails/github-icon2.jpg" alt="github">
-            <img class="linkedin" src="thumbnails/linkedin-icon2.jpg" alt="linkedin">
-            <img class="whatsapp" src="thumbnails/whatsapp-icon2.png" alt="">
-            <img src="thumbnails/calling-icon2.png"  alt="" class="calling">
+          <a href="https://twitter.com/VictorMacharia0" rel="noopener" target="_blank"><img src="thumbnails/twitter-icon3.svg" alt="twitter"></a> 
+          <a href="https://github.com/tyke01" rel="noopener" target="_blank"><img src="thumbnails/github-icon3.svg" alt="github"></a> 
+          <a href="https://www.linkedin.com/in/victor-macharia-551b93226" rel="noopener" target="_blank"><img src="thumbnails/linkedin-icon1.svg" alt="linkedin"></a> 
+          <a href=""><img src="thumbnails/whatsapp-icon3.svg" alt="whatsapp"></a> 
+          <a href=""><img src="thumbnails/calling-icon3.svg"  alt="calling"></a>
         </div>
+        
       </main>
+    </section>
+    <section class="about" id="about">
+      <h1>ABOUT</h1>
+      <div class="about-info">
+        <p >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste harum voluptatem culpa 
+          sed hic! Quos repellat labore nisi natus sed aperiam nulla. Sint placeat, dolorum consequuntur
+           dolorem harum nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste harum 
+           voluptatem culpa sed hic! Quos repellat labore nisi natus sed aperiam nulla. Sint placeat, dolorum consequuntur
+          dolorem harum nostrum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste harum voluptatem culpa 
+          sed hic! Quos repellat labore nisi natus sed aperiam nulla. Sint placeat, dolorum consequuntur
+           dolorem harum nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste harum 
+           voluptatem culpa sed hic! Quos repellat labore nisi natus sed aperiam nulla. Sint placeat, dolorum consequuntur
+          dolorem harum nostrum.
+
+        </p>
+        <img src="thumbnails/wallpaper 1.jpg" alt="">
+      </div>
+
     </section>
   </body>
 </html>
